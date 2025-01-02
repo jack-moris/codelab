@@ -1,8 +1,13 @@
 env:
-    apiKey:"AIzaSyDYm5Xp1vLIFv3PPONY-CTqxoQZX_2cv2M"
-    authDomain:"friendlyeats-codelab-39120.firebaseapp.com"
-    projectId:"friendlyeats-codelab-39120"
-    storageBucket:"friendlyeats-codelab-39120.firebasestorage.app"
-    messagingSenderId:"880946509512"
-    appId:"1:880946509512:web:9f56d09a2d88be5299d7fd"
-    measurementId:"G-C350S0SVTW"
+    - variable: NEXT_PUBLIC_FIREBASE_API_KEY
+    value:"AIzaSyDYm5Xp1vLIFv3PPONY-CTqxoQZX_2cv2M"
+    - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+    value:"friendlyeats-codelab-39120.firebaseapp.com"
+    - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    value:"friendlyeats-codelab-39120"
+    - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+    value:"friendlyeats-codelab-39120.firebasestorage.app"
+    - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+    value:"880946509512"
+    - variable: NEXT_PUBLIC_FIREBASE_APP_ID
+    value:"1:880946509512:web:9f56d09a2d88be5299d7fd"
